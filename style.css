@@ -48,7 +48,7 @@ body{
     text-align: center;
 }
 .panel.active{
-    flex: 5;
+    flex: 3;
 }
 .panel.panel.active h2{
     opacity: 1;
