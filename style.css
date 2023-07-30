@@ -43,6 +43,7 @@ body{
     cursor: pointer;
     color: aliceblue;
     flex:0.5;
+    width: 0.5vw;
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
