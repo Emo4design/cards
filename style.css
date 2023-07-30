@@ -1,67 +1,66 @@
- *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif; 
-}
-
-body{
-    
-    background-color: rgb(29, 29, 29);
-    color: aliceblue;
-    text-align: center;
-
-}
-
-.logo{
-    width: 100px;
-    margin: 20px;
-    float: left;
-  
-}
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:100vh; 
-    overflow: hidden;
+*{
     margin: 0;
-    width: 100vw;
-}
-.gallery{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.panel{
-    background-size:auto 100% ;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    border-radius: 50px;
-    cursor: pointer;
-    color: aliceblue;
-    flex:0.5;
-    width: 0.5vw;
-    margin: 10px;
-    position: relative;
-    transition: flex 0.7s ease-in;
-    -webkit-transition: all 700ms ease-in;
-}
- 
-.panel h2{
-    text-shadow: 1px 1px #000000;
-    font-size: 24px;
-    opacity: 0;
-    text-align: center;
-}
-.panel.active{
-    flex: 5;
-    width: 80vw;
-}
-.panel.panel.active h2{
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
-} 
-
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+  }
+  
+  body{
+      
+      background-color: rgb(29, 29, 29);
+      color: aliceblue;
+      text-align: center;
+  
+  }
+  
+  .logo{
+      width: 100px;
+      margin: 20px;
+      float: left;
+    
+  }
+  .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height:100vh; 
+      overflow: hidden;
+      margin: 0;
+      width: 100vw;
+  }
+  .gallery{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .panel{
+      background-size:auto 100% ;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 80vh;
+      border-radius: 50px;
+      cursor: pointer;
+      color: aliceblue;
+      flex:0.6;
+      margin: 10px;
+      width: 0.5vw;
+      position: relative;
+      transition: flex 0.7s ease-in;
+      -webkit-transition: all 700ms ease-in;
+  }
+   
+  .panel h2{
+      text-shadow: 1px 1px #000000;
+      font-size: 24px;
+      opacity: 0;
+      text-align: center;
+  }
+  .panel.active{
+      flex: 5;
+      width: 80vw;
+  }
+  .panel.panel.active h2{
+      opacity: 1;
+      transition: opacity 0.3s ease-in 0.4s;
+  } 
